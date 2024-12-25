@@ -1,0 +1,5 @@
+"#!/bin/bash" 
+"echo 'Enter Principal, Rate, and Time:'" 
+"read principal rate time" 
+"interest=\$((principal * rate * time / 100))" 
+"echo \"Simple Interest: \$interest\"" 
